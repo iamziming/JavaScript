@@ -1,6 +1,16 @@
+//splits a String bject into an array of strings
 var array = [];
 var str = "hello";
-
-//splits a String bject into an array of strings
 array = str.split(""); //["h", "e", "l", "l", "o"]
 
+
+//reverses an array
+var myArray = ['one', 'two', 'three'];
+myArray.reverse(); // ['three', 'two', 'one']
+
+//joins all elements of an array into a string
+var a = ['Wind', 'Rain', 'Fire'];
+var myVar1 = a.join();      //'Wind,Rain,Fire'
+var myVar2 = a.join(', ');  //'Wind, Rain, Fire'
+var myVar3 = a.join(' + '); //'Wind + Rain + Fire'
+var myVar4 = a.join('');    //'WindRainFire'
