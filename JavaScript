@@ -10,7 +10,7 @@ myArray.reverse(); // ['three', 'two', 'one']
 
 //joins all elements of an array into a string
 var a = ['Wind', 'Rain', 'Fire'];
-var myVar1 = a.join();      //'Wind,Rain,Fire'
-var myVar2 = a.join(', ');  //'Wind, Rain, Fire'
-var myVar3 = a.join(' + '); //'Wind + Rain + Fire'
-var myVar4 = a.join('');    //'WindRainFire'
+a.join();      //'Wind,Rain,Fire'
+a.join(', ');  //'Wind, Rain, Fire'
+a.join(' + '); //'Wind + Rain + Fire'
+a.join('');    //'WindRainFire'
