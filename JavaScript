@@ -1,0 +1,6 @@
+var array = [];
+var str = "hello";
+
+//splits a String bject into an array of strings
+array = str.split(""); //["h", "e", "l", "l", "o"]
+
