@@ -1,1 +1,1 @@
-# my cheetsheet
+# myCheetSheet
