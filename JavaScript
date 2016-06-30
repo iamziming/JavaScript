@@ -1,6 +1,9 @@
 //splits a String bject into an array of strings
-var str = "hello";
-var array = str.split(""); //["h", "e", "l", "l", "o"]
+var str = "How are you doing today?";
+var res = str.split();      //["How are you doing today?"]
+var res = str.split("");    //["H", "o", "w", " ", "a", "r", "e", " ", "y", "o", "u", " ", "d", "o", "i", "n", "g", " ", "t", "o", "d", "a", "y", "?"]
+var res = str.split(" ",3); //["How", "are", "you"]
+var res = str.split("o");   //["H", "w are y", "u d", "ing t", "day?"]
 
 //reverses an array
 var myArray = ['one', 'two', 'three'];
