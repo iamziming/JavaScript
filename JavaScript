@@ -40,5 +40,8 @@ var res = str.toUpperCase();  //HELLO WORLD!
 
 //returns a subset of a string between one index and another, or through the end of the string.
 var str = "Hello world!";
-var res = str.substring(1, 4);  // ell
-var res = str.substring(0, 4);  // Hell
+var res = str.substring(1, 4);  //ell - index 1, 2 and 3
+
+//extracts parts of a string, beginning at the character at the specified position, and returns the specified number of characters
+var str = "Hello world!";
+var res = str.substr(1, 4);  //ello - index 1, 2, 3 and 4
