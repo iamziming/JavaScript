@@ -1,22 +1,22 @@
-//splits a String bject into an array of strings
+//SPLIT splits a String bject into an array of strings
 var str = "How are you doing today?";
 var res = str.split();      //["How are you doing today?"]
 var res = str.split("");    //["H", "o", "w", " ", "a", "r", "e", " ", "y", "o", "u", " ", "d", "o", "i", "n", "g", " ", "t", "o", "d", "a", "y", "?"]
 var res = str.split(" ",3); //["How", "are", "you"]
 var res = str.split("o");   //["H", "w are y", "u d", "ing t", "day?"]
 
-//reverses an array
+//REVERSE reverses an array
 var myArray = ['one', 'two', 'three'];
 myArray.reverse(); // ['three', 'two', 'one']
 
-//joins all elements of an array into a string
+//JOIN joins all elements of an array into a string
 var a = ['Wind', 'Rain', 'Fire'];
 a.join();      //'Wind,Rain,Fire'
 a.join(', ');  //'Wind, Rain, Fire'
 a.join(' + '); //'Wind + Rain + Fire'
 a.join('');    //'WindRainFire'
 
-//replaces with a new string
+//REPLACE replaces with a new string
 var str = "Visit Mom!";
 var res = str.replace("Mom", "Dad");  //Visit Dad!
 
@@ -26,22 +26,30 @@ myString = myString.replace(/\D/g,'');      //1238
 var myString = 'abc123.8<blah>';
 myString = myString.replace(/[0-9]/g, '');  //abc.<blah>
 
-//returns the calling string value converted to lowercase
+//TOLOWERCASE returns the calling string value converted to lowercase
 var str = "Hello World!";
 var res = str.toLowerCase();  //hello world!
 
-//returns the selected elements in an array, as a new array object
+//SLICE returns the selected elements in an array, as a new array object
 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 var citrus = fruits.slice(1, 3);  //Orange,Lemon
 
-//converts a string to uppercase letters
+//TOUPPERCASE converts a string to uppercase letters
 var str = "Hello World!";
 var res = str.toUpperCase();  //HELLO WORLD!
 
-//returns a subset of a string between one index and another, or through the end of the string.
+//SUBSTRING returns a subset of a string between one index and another, or through the end of the string.
 var str = "Hello world!";
 var res = str.substring(1, 4);  //ell - index 1, 2 and 3
 
-//extracts parts of a string, beginning at the character at the specified position, and returns the specified number of characters
+//SUBSTR extracts parts of a string, beginning at the character at the specified position, and returns the specified number of characters
 var str = "Hello world!";
 var res = str.substr(1, 4);  //ello - index 1, 2, 3 and 4
+
+//SPLICE changes the content of an array by removing existing elements and/or adding new elements.
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");  //Banana,Orange,Lemon,Kiwi,Apple,Mango
+
+//INDEXOF returns the position of the first occurrence of a specified value in a string
+var str = "Hello world, welcome to the universe.";
+var n = str.indexOf("e");  //1
