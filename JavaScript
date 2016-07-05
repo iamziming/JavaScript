@@ -58,10 +58,11 @@ var n = str.indexOf("e");  //1
 function isBigEnough(value) {
   return value >= 10;
 }
-var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);  // filtered is [12, 130, 44]
+var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);  //filtered is [12, 130, 44]
 
 //SORT sorts the elements of an array in place and returns the array
 var fruit = ['cherries', 'apples', 'bananas'];
 fruit.sort();  // ['apples', 'bananas', 'cherries']
 
-
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return a-b}); //[1,5,10,25,40,100]
