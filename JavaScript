@@ -71,3 +71,9 @@ points.sort(function(a, b){return a-b}); //[1,5,10,25,40,100]
 var str = "HELLO WORLD";
 var res = str.charAt(0); //H
 
+//FROMCHARCODE converts a Unicode number into a character
+var res = String.fromCharCode(65); //A
+
+//CHARCODEAT returns the Unicode of the character at the specified index in a string
+var str = "HELLO WORLD";
+var n = str.charCodeAt(0); //72
