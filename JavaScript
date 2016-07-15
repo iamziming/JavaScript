@@ -77,3 +77,8 @@ var res = String.fromCharCode(65); //A
 //CHARCODEAT returns the Unicode of the character at the specified index in a string
 var str = "HELLO WORLD";
 var n = str.charCodeAt(0); //72
+
+//Math.round() Round a number to the nearest integer
+Math.round(2.5);  //3
+
+
