@@ -118,3 +118,8 @@ Math.round(2.5);  //3
 ```JavaScript
 Math.floor(1.6);  //1
 ```
+
+######19. parseInt() Parses a string and returns an integer
+```JavaScript
+var a = parseInt("10")  //10
+```
