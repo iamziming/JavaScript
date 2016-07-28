@@ -109,17 +109,27 @@ var str = "HELLO WORLD";
 var n = str.charCodeAt(0); //72
 ```
 
-######17. Math.round() Round a number to the nearest integer
+######17. parseInt() Parses a string and returns an integer
+```JavaScript
+var a = parseInt("10")  //10
+```
+
+######18. Math.round() Round a number to the nearest integer
 ```JavaScript
 Math.round(2.5);  //3
 ```
 
-######18. Math.floor() Round a number downward to its nearest integer
+######19. Math.floor() Round a number downward to its nearest integer
 ```JavaScript
 Math.floor(1.6);  //1
 ```
 
-######19. parseInt() Parses a string and returns an integer
+######20. Math.max() Returns the largest of zero or more numbers
 ```JavaScript
-var a = parseInt("10")  //10
+Math.max(10, 20);  //20
+```
+
+######21. Math.min() returns the smallest of zero or more numbers
+```JavaScript
+Math.min(10, 20);  //10
 ```
