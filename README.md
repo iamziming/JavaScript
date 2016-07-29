@@ -134,3 +134,10 @@ Math.max(10, 20);  //20
 ```JavaScript
 Math.min(10, 20);  //10
 ```
+
+######22. reduce() applies a function against an accumulator and each value of the array to reduce it to a single value
+```JavaScript
+var total = [0, 1, 2, 3].reduce(function(a, b) {
+  return a + b;
+}, 0);  //total == 6
+```
