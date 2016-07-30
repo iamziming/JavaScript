@@ -143,3 +143,8 @@ var total = [0, 1, 2, 3].reduce(function(a, b) {
   return a + b;
 }, 0);  //total == 6
 ```
+
+######23. repeat() returns a new string which contains the specified number of copies of the original string
+```JavaScript
+var name = "kevin".repeat(3);  //kevinkevinkevin
+```
