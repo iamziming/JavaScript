@@ -66,8 +66,10 @@ var res = str.substr(1, 4);  //ello - index 1, 2, 3 and 4
 
 ######10. splice() changes the content of an array by removing existing elements and/or adding new elements
 ```JavaScript
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.splice(2, 0, "Lemon", "Kiwi");  //Banana,Orange,Lemon,Kiwi,Apple,Mango
+var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
+var removed = myFish.splice(2, 0, 'drum');  
+//removes 0 elements from index 2, and inserts 'drum'
+//['angel', 'clown', 'drum', 'mandarin', 'surgeon']
 ```
 
 ######11. indexOf() returns the position of the first occurrence of a specified value in a string
