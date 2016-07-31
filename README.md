@@ -34,10 +34,13 @@ var myString = 'abc123.8<blah>';
 myString = myString.replace(/[0-9]/g, '');  //abc.<blah>
 ```
 
-######5. slice() returns the selected elements in an array, as a new array object
+######5. slice() returns the selected elements in an array, as a new array object or extracts parts of a string and returns the extracted parts in a new string
 ```JavaScript
 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-var citrus = fruits.slice(1, 3);  //Orange,Lemon
+var citrus = fruits.slice(1, 3);  //[Orange,Lemon]  beginning is inclued, end is excluded
+
+var str = "Hello World";
+var newStr = str.slice(1);  //"ello World"
 ```
 
 ######6. toLowerCase returns the calling string value converted to lowercase
