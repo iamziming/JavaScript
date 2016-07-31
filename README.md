@@ -148,3 +148,9 @@ var total = [0, 1, 2, 3].reduce(function(a, b) {
 ```JavaScript
 var name = "kevin".repeat(3);  //kevinkevinkevin
 ```
+
+######24. Object.keys() returns an array of a given object's own enumerable properties
+```JavaScript
+var obj = { "a": 1, "b": 2 };
+Object.keys(obj);  //  ["a", "b"]
+```
