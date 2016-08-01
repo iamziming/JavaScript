@@ -67,7 +67,7 @@ var str = "Hello world!";
 var res = str.substr(1, 4);  //ello - index 1, 2, 3 and 4
 ```
 
-######10. splice() changes the content of an array by removing existing elements and/or adding new elements
+######10. splice() modifies the content of an array by removing existing elements and/or adding new elements
 ```JavaScript
 var myFish = ['angel', 'clown', 'mandarin', 'surgeon'];
 var removed = myFish.splice(2, 0, 'drum');  
