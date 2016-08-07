@@ -157,3 +157,10 @@ var name = "kevin".repeat(3);  //kevinkevinkevin
 var obj = { "a": 1, "b": 2 };
 Object.keys(obj);  //  ["a", "b"]
 ```
+
+######24. test() tests for a match in a string
+```JavaScript
+var str = "Hello world!";
+var patt = /Hello/g;
+var result = patt.test(str); // true
+```
