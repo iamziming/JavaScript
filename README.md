@@ -165,3 +165,11 @@ var str = "Hello world!";
 var patt = /Hello/g;
 var result = patt.test(str); // true
 ```
+
+######24. forEach() executes a provided function once per array element
+```JavaScript
+function logArray(element) {
+    console.log(element);
+}
+[1, 2, 3, 4, 5].forEach(logArray);  // 1 2 3 4 5
+```
