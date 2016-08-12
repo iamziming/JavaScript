@@ -173,3 +173,18 @@ function logArray(element) {
 }
 [1, 2, 3, 4, 5].forEach(logArray);  // 1 2 3 4 5
 ```
+
+######25. map() creates a new array with the results of calling a provided function on every element in this array
+```JavaScript
+function sayHi(jedi, index) {
+    if (jedi === "Obi Wan Kenobi") {
+        return "And last but not less important, I'm #" + (index + 1) + " " + jedi;
+    }
+    else {
+        return "My name is " + jedi + ", I'm #" + (index + 1);
+    }
+}
+var jediMasters = ["Leia", "Anakin", "Luke", "Obi Wan Kenobi"];
+var jediMastersSayHi = jediMasters.map(sayHi);
+// ["My name is Leia, I'm #1", "My name is Anakin, I'm #2", "My name is Luke, I'm #3", "And last but not less important, I'm #4 Obi Wan Kenobi"]
+```
