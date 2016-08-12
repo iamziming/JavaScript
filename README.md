@@ -143,9 +143,9 @@ Math.min(10, 20);  // 10
 
 ######22. reduce() applies a function against an accumulator and each value of the array to reduce it to a single value
 ```JavaScript
-var total = [0, 1, 2, 3].reduce(function(a, b) {
-  return a + b;
-}, 0);  //  6
+var total = [0, 1, 2, 3].reduce(function(acc, cur) { // acc represents accumulated value, cur represents current item
+  return acc + cur;
+}, 0);  //  0 + 0, 0 + 1, 1 + 2, 3 + 3 = 6
 ```
 
 ######23. repeat() returns a new string which contains the specified number of copies of the original string
