@@ -94,8 +94,12 @@ var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);  // [12, 130, 44]
 var fruit = ['cherries', 'apples', 'bananas'];
 fruit.sort();  // ['apples', 'bananas', 'cherries']
 
-var points = [40, 100, 1, 5, 25, 10];
-points.sort(function(a, b){return a-b;}); // [1,5,10,25,40,100]
+["z", "d", "g", "k"].sort(function compare(a, b) {
+  // Compare "a" and "b" in some fashion, and return -1, 0, or 1
+  // Less than 0: Sort "a" to be a lower index than "b"
+  // Zero: "a" and "b" should be considered equal, and no sorting performed
+  // Greater than 0: Sort "b" to be a lower index than "a"
+})
 ```
 
 ######14. charAt() returns the character at the specified index in a string
