@@ -192,3 +192,10 @@ var jediMasters = ["Leia", "Anakin", "Luke", "Obi Wan Kenobi"];
 var jediMastersSayHi = jediMasters.map(sayHi);
 // ["My name is Leia, I'm #1", "My name is Anakin, I'm #2", "My name is Luke, I'm #3", "And last but not less important, I'm #4 Obi Wan Kenobi"]
 ```
+
+######26. shift() removes the first element from an array and returns that element
+```JavaScript
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var  firstElement = fruits.shift();
+// fruits = ["Orange", "Apple", "Mango"] ; firstElement = "Banana";
+```
