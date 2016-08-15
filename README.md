@@ -196,6 +196,13 @@ var jediMastersSayHi = jediMasters.map(sayHi);
 ######26. shift() removes the first element from an array and returns that element
 ```JavaScript
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
-var  firstElement = fruits.shift();
+var firstElement = fruits.shift();
 // fruits = ["Orange", "Apple", "Mango"] ; firstElement = "Banana";
+```
+
+######26. pop() removes the last element from an array and returns that element
+```JavaScript
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+var lastElement = fruits.pop();
+// fruits = ["Banana", "Orange", "Apple"] ; lastElement = "Mango";
 ```
