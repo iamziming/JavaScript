@@ -200,9 +200,14 @@ var firstElement = fruits.shift();
 // fruits = ["Orange", "Apple", "Mango"] ; firstElement = "Banana";
 ```
 
-######26. pop() removes the last element from an array and returns that element
+######27. pop() removes the last element from an array and returns that element
 ```JavaScript
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 var lastElement = fruits.pop();
 // fruits = ["Banana", "Orange", "Apple"] ; lastElement = "Mango";
+```
+
+######28. Number() converts the object argument to a number that represents the object's value
+```JavaScript
+Number("123")  // 123
 ```
