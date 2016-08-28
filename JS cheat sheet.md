@@ -211,3 +211,8 @@ var lastElement = fruits.pop();
 ```JavaScript
 Number("123")  // 123
 ```
+
+######29. eval() function evaluates or executes an argument
+```JavaScript
+eval("2 + 2")  // 4; eval takes string as argument
+```
