@@ -216,3 +216,4 @@ Number("123")  // 123
 ```JavaScript
 eval("2 + 2")  // 4; eval takes string as argument
 ```
+
