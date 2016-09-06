@@ -1,6 +1,6 @@
 #JavaScript
 ######1. split() splits a String bject into an array of strings
-```JavaScript
+```JavaScript 
 var str = "How are you doing today?";
 var res = str.split();      // ["How are you doing today?"]
 var res = str.split("");    // ["H", "o", "w", " ", "a", "r", "e", " ", "y", "o", "u", " ", "d", "o", "i", "n", "g", " ", "t", "o", "d", "a", "y", "?"]
