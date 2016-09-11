@@ -217,3 +217,9 @@ Number("123")  // 123
 eval("2 + 2")  // 4; eval takes string as argument
 ```
 
+######30. setInterval() method calls a function at specified intervals (in milliseconds)
+```JavaScript 
+setTimeout(function(){
+  alert("Hello");
+}, 3000);
+```
