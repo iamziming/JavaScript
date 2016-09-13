@@ -237,9 +237,14 @@ function populateStorage() {
 var aValue = storage.getItem(keyName);
 ```
 
-######33. JSON.parse() method parses a string as JSON, optionally transforming the value produced by parsing
+######33. JSON.parse() method turns a string of JSON text into a Javascript object
 ```JavaScript
 var json = '{"result":true,"count":1}',
     obj = JSON.parse(json);
 obj.count; // 1
+```
+
+######34. JSON.stringify() method  turns a Javascript object into JSON text and stores that JSON text in a string
+```JavaScript
+JSON.stringify({ x: 5 });  // '{"x":5}'
 ```
