@@ -223,3 +223,11 @@ setTimeout(function(){
   alert("Hello");
 }, 3000);
 ```
+
+######31. setItem() method will add/update the key to the storage when passed a key name and value
+```JavaScript
+function populateStorage() {
+  localStorage.setItem('bgcolor', 'red');
+  localStorage.setItem('font', 'Helvetica');
+}
+```
