@@ -236,3 +236,10 @@ function populateStorage() {
 ```JavaScript
 var aValue = storage.getItem(keyName);
 ```
+
+######33. JSON.parse() method parses a string as JSON, optionally transforming the value produced by parsing
+```JavaScript
+var json = '{"result":true,"count":1}',
+    obj = JSON.parse(json);
+obj.count; // 1
+```
