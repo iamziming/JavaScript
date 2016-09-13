@@ -231,3 +231,8 @@ function populateStorage() {
   localStorage.setItem('font', 'Helvetica');
 }
 ```
+
+######32. getItem() method - when passed a key name, will return that key's value
+```JavaScript
+var aValue = storage.getItem(keyName);
+```
