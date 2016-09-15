@@ -219,12 +219,19 @@ eval("2 + 2")  // 4; eval takes string as argument
 
 ######30. setInterval() method calls a function at specified intervals (in milliseconds)
 ```JavaScript 
+setInterval(function(){
+  alert("Hello");
+}, 3000);
+```
+
+######31. setInterval() method calls a function after a specified number of milliseconds
+```JavaScript 
 setTimeout(function(){
   alert("Hello");
 }, 3000);
 ```
 
-######31. setItem() method will add/update the key to the storage when passed a key name and value
+######32. setItem() method will add/update the key to the storage when passed a key name and value
 ```JavaScript
 function populateStorage() {
   localStorage.setItem('bgcolor', 'red');
@@ -232,19 +239,19 @@ function populateStorage() {
 }
 ```
 
-######32. getItem() method - when passed a key name, will return that key's value
+######33. getItem() method - when passed a key name, will return that key's value
 ```JavaScript
 var aValue = storage.getItem(keyName);
 ```
 
-######33. JSON.parse() method turns a string of JSON text into a Javascript object
+######34. JSON.parse() method turns a string of JSON text into a Javascript object
 ```JavaScript
 var json = '{"result":true,"count":1}',
     obj = JSON.parse(json);
 obj.count; // 1
 ```
 
-######34. JSON.stringify() method  turns a Javascript object into JSON text and stores that JSON text in a string
+######35. JSON.stringify() method  turns a Javascript object into JSON text and stores that JSON text in a string
 ```JavaScript
 JSON.stringify({ x: 5 });  // '{"x":5}'
 ```
