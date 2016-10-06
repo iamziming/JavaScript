@@ -251,7 +251,12 @@ var json = '{"result":true,"count":1}',
 obj.count; // 1
 ```
 
-######35. JSON.stringify() method  turns a Javascript object into JSON text and stores that JSON text in a string
+######35. JSON.stringify() method turns a Javascript object into JSON text and stores that JSON text in a string
 ```JavaScript
 JSON.stringify({ x: 5 });  // '{"x":5}'
+```
+
+######36. Math.abs() method return the absolute value of a number
+```JavaScript
+Math.abs(-7.25);  // 7.25
 ```
