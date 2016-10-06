@@ -260,3 +260,8 @@ JSON.stringify({ x: 5 });  // '{"x":5}'
 ```JavaScript
 Math.abs(-7.25);  // 7.25
 ```
+
+######37. outerHeight() method return the outer height of the FIRST matched element(includes padding and border)
+```JavaScript
+alert($("div").outerHeight());
+```
