@@ -266,7 +266,7 @@ Math.abs(-7.25);  // 7.25
 alert($("div").outerHeight());
 ```
 
-######38
+######38. smooth scroll
 ```JavaScript
 $('a[href*="#"]:not([href="#"])').click(function(){
   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
